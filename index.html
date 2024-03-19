@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Recipe Card Builder - Natalia Lewis</title>
+        <script src="recipe.js" defer></script>
+        <script src="writeRecipeToFile.js" defer></script>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div id="header">
+            <h1>Build A Recipe Card</h1>
+        </div>
+        <div>
+            <input class="input-box" id="title" type="text" aria-label="Recipe Title" aria-description="Click out of the bar or press tab to save the title" placeholder="Recipe Title" />
+        </div>
+        <div>
+            <input class="input-box" id="ingredient" type="text" aria-label="Ingredient Name and Amount" aria-description="Click add or press enter to save ingredient" placeholder="Ingredient Name and Amount" />
+            <button class="input-button" id="add-ingredient">Add</button>
+            <div class="list-container" aria-live="polite">
+                <div class="list-box" id="ingredient-list"></div>
+            </div>
+        </div>
+        <div>
+            <input class="input-box" id="instruction" type="text" aria-label="Instruction" aria-description="Click add or press enter to save instruction" placeholder="Instruction" />
+            <button class="input-button" id="add-instruction">Add</button>
+            <div class="list-container" aria-live="polite"> 
+                <div class="list-box" id="instruction-list"></div>
+            </div>
+        </div>
+        <div>
+            <button class="bottom-button" id="reset" aria-description="Click or press enter to clear all input fields">Reset</button>
+            <button class="bottom-button" id="save" aria-description="Click or press enter to use inputs to create a recipe card" aria-live="polite">Save Recipe Card</button>
+        </div>
+    </body>
+</html>
