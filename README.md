@@ -2,4 +2,4 @@
 
 - ### Instructions:
     - Fill in the form with the recipe title, ingredients, and steps.
-    - Wehen satisified with the information provided, click "Save Recipe Card" to get a .PDF version of the recipe to download.
+    - Wehen satisified with the information provided, click "Save Recipe Card" to get a stylized version of the recipe to download.
